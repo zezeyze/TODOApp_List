@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/Home">
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.zehrayildirim.todolistapp.HomePage"
+        android:label="HomePagw"
+        tools:layout="@layout/home_page" >
+        <action
+            android:id="@+id/action_Home_to_FirstPage"
+            app:destination="@id/FirstPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/FirstPage"
+        android:name="com.zehrayildirim.todolistapp.FirstPage"
+        android:label="FirstPage" />
+</navigation>
