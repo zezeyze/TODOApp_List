@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/Home"
         android:name="com.zehrayildirim.todolistapp.HomePage"
-        android:label="HomePagw"
+        android:label="HomePage"
         tools:layout="@layout/home_page" >
         <action
             android:id="@+id/action_Home_to_FirstPage"
